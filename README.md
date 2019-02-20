@@ -49,6 +49,7 @@ Powerball is a type of lottery that a user picks 6 numbers per ticket. The first
  * To know the winning numbers, enter again the round number and click the "winningNumbers" button. Click the details button and you will     see the winning numbers.
  * Prizes are paid out based on the number of winning numbers matched on your ticket
 ### 4.2 Hyperledger
-Authors :
-
+## Reference
+Ethereum reference: Iyer, K. & Dannen, C. (2018). Building Games with Ethereum Smart Contracts (pp. 171-209). Brooklyn, New York: Apress
+## Authors
 Marvin Clyde Custodio, Joshua Malabanan, Joshua Pentinio, Paolo Syd Ruiz
