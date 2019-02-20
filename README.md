@@ -10,7 +10,7 @@ In this type of lottery the winner will be selected from all participants who bo
 ### 1.2 Hyperledger
  * Enter the duration before deploying the chain code.
  * Participats must register their chain code before joining the lottery to recognized each peer.
- * Unlike Ethereum, Hyperledger does not use an own crypto currency but they can used digital money for participants to buy tickets.
+ * Unlike Ethereum, Hyperledger does not use an own crypto currency but they can use digital money to buy tickets.
  * Same with Ethereum, the only user who deployed the chain code can only draw the winner.
  * The jackpot is the total sum of the tickets from participants, which can be withdraw by the winner.
 ## II. Recurring Lottery
