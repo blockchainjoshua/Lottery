@@ -18,4 +18,5 @@ In this type of lottery the winner will be selected from all participants who bo
 Powerball is a type of lottery that a user picks 6 numbers per ticket. The first 5 numbers are the standard numbers from 1-69 and the sixth number are the special number from 1-26 that offers extra rewards. Every 15 seconds, a drawing of tickets is held and a winning ticket that consists of 6 numbers is picked. Prizes are paid out based on the number of winning numbers that matched on your ticket. 
 ### 4.1 Ethereum
 ### 4.2 Hyperledger
-Authors : Marvin Clyde Custodio, Joshua Malabanan, Joshua Pentinio, Paolo Syd Ruiz
+Authors :
+Marvin Clyde Custodio, Joshua Malabanan, Joshua Pentinio, Paolo Syd Ruiz
