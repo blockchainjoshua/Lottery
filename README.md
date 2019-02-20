@@ -1,6 +1,6 @@
 # Design Patterns for Ethereum and Hyperledger Lottery
 ## I. Simple Lottery
-In this type of lottery the winner will be selected from all participants who bought a lottery ticket. In this type of lottery the players can only buy one ticket per transaction and there is no winning number or combination to draw to select the winner. 
+In this type of lottery the winner will be selected from all participants who bought a lottery ticket randomly. In this type of lottery the players can only buy one ticket per transaction and there is no winning number or combination to draw to select the winner.
 ### 1.1 Ethereum
  * Change the version to 4.15 from settings tab before running the smart contract.
  * Enter the time duration in seconds upon deploying the smart contract.
