@@ -19,7 +19,23 @@ In this type of lottery the winner will be selected from all participants who bo
 ## III. RNG Lottery
 RNG Lottery is a lottery variant, where the owner of the contract will draw a number and checks it if who have won the lottery. First, the contract owner will deploy the contract with the given transaction blocks to determine the state if the buying phase ends and the reveal phase ends. After deployment, the participants will create commitment with their number and pay. When the buying phase ends, the reveal phase starts. During the reveal phase, the participants will reveal their numbers. If they have not reveal their number within the duration, their ticket will be forfeited. When the reveal phase ends, the owner will draw a number to check if anyone have that number. The participants can view who have won the lottery. If it is a winning number, the participant of the winning number can withdraw its winnings, thus ending the whole lottery.
 ### 3.1 Ethereum
+  * Should work at least with ver. 4.15 of Solidity.
+  * Enter the transaction block prior to deployment.
+  * Participants can create commitment with their number and pay it for 0.01 ether.
+  * Wait for the buying phase to end. 
+  * Reveal your number during reveal phase or your number will be forfeited.
+  * Wait for the owner to draw a number when the reveal phase ends.
+  * View the details of that user who have won the lottery.
+  * The winner will withdraw the winnings.
 ### 3.2 Hyperledger
+  * Enroll an admin and at least 3 users.
+  * Run their apps. 
+  * As a participant, pen the port of the admin to make a commitment with your number, and pay for it.
+  * Wait for the buying phase to end. 
+  * While on the reveal phase, reveal your number or your number will be forfeited.
+  * After the reveal phase, wait for the admin to draw a number. 
+  * The participants can view who have won the lottery.
+  * If it was a winning number, the winner can withdraw its winnings.
 ## IV. Powerball Lottery
 Powerball is a type of lottery that a user picks 6 numbers per ticket. The first 5 numbers are the standard numbers from 1-69 and the sixth number are the special number from 1-26 that offers extra rewards. Every 15 seconds, a drawing of tickets is held and a winning ticket that consists of 6 numbers is picked. Prizes are paid out based on the number of winning numbers that matched on your ticket. 
 ### 4.1 Ethereum
