@@ -17,11 +17,21 @@ In this type of lottery the winner will be selected from all participants who bo
 ### 2.1 Ethereum
 ### 2.2 Hyperledger
 ## III. RNG Lottery
+RNG Lottery is a lottery variant, where the owner of the contract will draw a number and checks it if who have won the lottery. First, the contract owner will deploy the contract with the given transaction blocks to determine the state if the buying phase ends and the reveal phase ends. After deployment, the participants will create commitment with their number and pay. When the buying phase ends, the reveal phase starts. During the reveal phase, the participants will reveal their numbers. If they have not reveal their number within the duration, their ticket will be forfeited. When the reveal phase ends, the owner will draw a number to check if anyone have that number. The participants can view who have won the lottery. If it is a winning number, the participant of the winning number can withdraw its winnings, thus ending the whole lottery.
 ### 3.1 Ethereum
 ### 3.2 Hyperledger
 ## IV. Powerball Lottery
 Powerball is a type of lottery that a user picks 6 numbers per ticket. The first 5 numbers are the standard numbers from 1-69 and the sixth number are the special number from 1-26 that offers extra rewards. Every 15 seconds, a drawing of tickets is held and a winning ticket that consists of 6 numbers is picked. Prizes are paid out based on the number of winning numbers that matched on your ticket. 
 ### 4.1 Ethereum
+ * Before compiling the smart contract, go to Settings and change the Solidity version to 0.4.15.
+ * Go to the Compile tab and click the "Start to compile" button to compile the smart contract.
+ * Go to the Run tab and change the Environment to "JavaScript VM".
+ * Click the "Create" button below to deploy the smart contract.
+ * In order to buy a ticket, you must pay 0.002 ether and pick 6 numbers, the first 5 number must between 1-69 and the sixth number must     between 1-26. (ex. [[1,2,3,4,5,6]])
+ * Click the buy button to buy the ticket.
+ * To draw the winning numbers, enter the round number and click the "drawNumbers" button.
+ * To know the winning numbers, enter again the round number and click the "winningNumbers" button. Click the details button and you will     see the winning numbers.
+ * Prizes are paid out based on the number of winning numbers matched on your ticket
 ### 4.2 Hyperledger
 Authors :
 
