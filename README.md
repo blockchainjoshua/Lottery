@@ -1,5 +1,5 @@
 # Design for Ethereum and Hyperledger Lottery
-## 1.Simple Lottery
-## 2.Recurring Lottery
-## 3.RNG Lottery
-## 4.Powerball Lottery
+### I.Simple Lottery
+### II.Recurring Lottery
+### III.RNG Lottery
+### IV.Powerball Lottery
