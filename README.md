@@ -19,4 +19,5 @@ Powerball is a type of lottery that a user picks 6 numbers per ticket. The first
 ### 4.1 Ethereum
 ### 4.2 Hyperledger
 Authors :
+
 Marvin Clyde Custodio, Joshua Malabanan, Joshua Pentinio, Paolo Syd Ruiz
